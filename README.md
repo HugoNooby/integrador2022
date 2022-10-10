@@ -1,2 +1,2 @@
-Kassio Lindão e gostoso
+Kassio Lindão e gostoso[]
 Depois de mim . by:Matias
