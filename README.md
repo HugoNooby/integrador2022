@@ -1,3 +1,1 @@
-Kassio Lindão e gostoso[]
-Depois de mim . by:Matias
-LARINHADOGRAU
+Jogo pra jogar pfv nao se jogar :'(
