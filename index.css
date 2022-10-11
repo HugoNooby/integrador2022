@@ -20,10 +20,9 @@
  
   
     
- @keyframes{ 
-   blink
-  }
+ @keyframes blink{
    to{
      visibility: hidden;
   
 }
+  }
