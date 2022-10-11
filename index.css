@@ -6,4 +6,7 @@ body{
 h1{
   color: #DDDD;
   text-align: center;
+  border: solid;
+  border-width: length(12px);
+  border-color: rgba:(227, 224, 148, 0.7);
 }
