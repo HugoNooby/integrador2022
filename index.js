@@ -11,7 +11,7 @@ function inserir(letra) {
   result.innerHTML += letra;
   count++;
   if(count < texto.length)
-    window.setTimeout(function() { inserir(texto[count]) }, 500);
+    window.setTimeout(function() { inserir(texto[count]) }, 2500);
 }
 
 window.onload = digitar;
