@@ -1,20 +1,4 @@
-html, body{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-body{
-  font-family: 'Press Start 2P', cursive;
-  background: repeating-linear-gradient(
-    to bottom,
-    #0f0a1e,
-    #0f0a1e 2px,
-    lighten(#0f0a1e, 3%) 2px,
-    lighten(#0f0a1e, 3%) 4px;
-  )
-}
-  
-div{
+  div{
   position: absolute;
   top: 0;
   left: 0;
