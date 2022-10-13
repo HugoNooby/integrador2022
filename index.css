@@ -42,5 +42,8 @@ div {
     visibility: hidden;
   }
 }
-
+h1,  p{
+  color: white;
+  text-aling: center;
+}
   
