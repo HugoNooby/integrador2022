@@ -1,19 +1,4 @@
-body{
-  background-image: ;
-  text-size: 15px;
-}
-
-h1{
-  color: #rgb(0, 3, 51);
-  text-align: center;
-  border: solid;
-  border-width: length(12px);
-  border-color: rgba:(227, 224, 148, 0.7);
-}
-img{
-  background-image: url("https://user-images.githubusercontent.com/115473530/195103722-d803cee9-5f23-4117-95a6-5d6ae165e71c.png");
-}
-div {
+.arcade {
   position: absolute;
   top: 0;
   left: 0;
@@ -51,6 +36,3 @@ div {
   }
 }
 
-.historia {
-  text-align: right;
-}
