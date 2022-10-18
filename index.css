@@ -1,9 +1,9 @@
 body {
   font-family: 'Press Start 2P', cursive;
   background: repeating-linear-gradient(to bottom, #0f0a1e, #0f0a1e 2px, #140e29 2px, #140e29 4px);
-  margin: 40px;
-  padding: 50px;
-  border: 50px;
+  margin: 25px;
+  padding: 20px;
+  border: 20px;
   height: 100%;
 }
 div {
