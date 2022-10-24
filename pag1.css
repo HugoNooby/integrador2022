@@ -1,3 +1,12 @@
 body {
   background-image: "https://user-images.githubusercontent.com/115473943/196447836-1b6169b5-8eb3-4c27-aa79-7a318f62660a.jpg"
 }
+
+img {
+  width: 100%;
+}
+
+div {
+  height: 40%;
+  width: 40%;
+}
