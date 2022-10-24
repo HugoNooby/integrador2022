@@ -3,7 +3,7 @@ function myMove() {
   var elem = document.getElementById("nome_usuario");   
   var pos = 0;
   clearInterval(id);
-  id = setInterval(frame, 10);
+  id = setInterval(frame, 200);
   function frame() {
     if (pos == 10) {
       clearInterval(id);
