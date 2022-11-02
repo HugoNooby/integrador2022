@@ -114,6 +114,10 @@ Era um fauno. Quando viu Lúcia, ficou tão espantado que deixou cair os embrulh
       let btn= document.getElementById('btn');
       let mountains_front= document.getElementById('mmountains_front');
       
+      window.addEventListener('scroll', function(){
+      let value= window.scrollY;
+        stars.style.left= value+ 'px';
+      })
     </script>
   </body>
 </html>
