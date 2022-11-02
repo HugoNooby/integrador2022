@@ -1,31 +1,3 @@
-body {
-  background-image: "https://user-images.githubusercontent.com/115473943/196447836-1b6169b5-8eb3-4c27-aa79-7a318f62660a.jpg"
-}
-
-div {
-  height: 40%;
-  width: 40%;
-}
-.img-container{
-   width: 240px;
-   height: 380px;
-   overflow: hidden;
-   border: 2px solid #000;
-}
-
-.img-container img{
-   width: 100%;
-   height: 100%;
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-}
-
-.img-container:hover img{
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
-
-
 *{
  margin: 0;
  padding: 0;
