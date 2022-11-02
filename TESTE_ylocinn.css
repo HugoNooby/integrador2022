@@ -9,7 +9,7 @@
 body
 {
   min-height: 100vh;
-  background: linear-gradient(#FE2E2E, #D8D8D8, #2E64FE);
+  background: linear-gradient(#FE2E2E, #FFFFFF, #2E64FE);
 }
 header
 {
@@ -37,7 +37,24 @@ display: flex;
 justify-content: center;
 align-items: center; 
 }
-
+header ul li
+{
+list-style: none;
+  margin-left: 20px;
+}
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+background: #fff;
+  color: #2b1055;
+}
 
 
 
