@@ -4,14 +4,14 @@ var primeira_escolha;
 var count = 0;
 function digitar() {
 primeira_escolha = document.getElementById("primeira_escolha");
-window.setTimeout(function() { inserir(texto[count]) }, 3);
+window.setTimeout(function() { inserir(texto[count]) }, 30);
 }
 
 function inserir(letra) {
 primeira_escolha.innerHTML += letra;
 count++;
 if(count < texto.length)
-window.setTimeout(function() { inserir(texto[count]) }, 3);
+window.setTimeout(function() { inserir(texto[count]) }, 30);
 }
 
 window.onload = digitar;
