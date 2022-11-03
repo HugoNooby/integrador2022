@@ -10,7 +10,7 @@ body{
  justify-content: center;
  align-items: center;
  min-height: 100vh;
- background-image: url("https://user-images.githubusercontent.com/115473943/196447836-1b6169b5-8eb3-4c27-aa79-7a318f62660a.jpg");
+ background-color: #FFC17C;
  flex-direction: column;
 }
 
@@ -105,7 +105,7 @@ a::before{
 	left: 0;
 	width: 4px;
 	height: 100%;
-	background: #00fe73;
+	background: #781800;
 	transition: 0.5s ease-in-out;
 	transition-delay: 0.5s;
 }
@@ -130,7 +130,7 @@ a:hover::after{
 a span{
 	position: absolute;
 	z-index: 1;
-	color: #781800;
+	color: #fff;
 	font-size: 18px;
 	transition: 0.5s;
 }
