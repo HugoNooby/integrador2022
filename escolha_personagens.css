@@ -106,7 +106,7 @@ a::before{
 	left: 0;
 	width: 4px;
 	height: 100%;
-	background: #a1a1a1;
+	background: #781800;;
 	transition: 0.5s ease-in-out;
 	transition-delay: 0.5s;
 }
@@ -128,11 +128,16 @@ a:hover::after{
 	transition-delay: 0s;
 }
 
+a:hover::before{
+	width: 50%;
+	transition-delay: 0s;
+}
+
 a span{
 	position: absolute;
 	z-index: 1;
 	color: #fff;
-	font-size: 18px;
+	font-size: 16px;
 	transition: 0.5s;
 }
 
@@ -146,16 +151,16 @@ a:hover span:nth-child(1){
 }
 
 a span:nth-child(2){
-	transform: scale(2);
+	transform: scale(3);
 	opacity: 0;
 	color: #111;
 	transition-delay: 0s;
 }
 
-a:hover span:nth-child(2){
+/*a:hover span:nth-child(2){
 	transform: scale(1);
 	transition-delay: 0s;
 	opacity: 0;
 	z-index: 10;
 	transition-delay: 0.5s;
-}
+}*/
