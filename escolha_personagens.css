@@ -26,6 +26,7 @@ body{
  transition: 1s;
 }
 
+
 .card:hover{
   transform: translateX(50%);
 }
