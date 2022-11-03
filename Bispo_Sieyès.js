@@ -16,7 +16,8 @@ window.setTimeout(function() { inserir(textoviu[count]) }, 30);
 function inserir(letra) {
 primeira_escolha.innerHTML += letra;
 count++;
-  
+}
+
 if(count < texto.length){
 window.setTimeout(function() { inserir(texto[count]) }, 30);
 $("#primeira_escolha").append(letra);
