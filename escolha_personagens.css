@@ -159,3 +159,10 @@ a:hover span:nth-child(2){
 	transition-delay: 0.5s;
 }
 
+.box{
+	text-align: left;
+}
+
+.dado{
+	text-align: right;
+}
