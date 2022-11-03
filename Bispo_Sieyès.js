@@ -6,11 +6,12 @@ var primeira_escolha2;
 
 var count = 0;
 function digitar() {
-primeira_escolha = document.getElementById("primeira_escolha");
+primeira_escolha = $("#primeira_escolha");
 window.setTimeout(function() { inserir(texto[count]) }, 30);
-primeiro_escolha2 = document.getElementById("primeira_escolha2");
+primeiro_escolha2 =$("#primeira_escolha2");
 window.setTimeout(function() { inserir(textoviu[count]) }, 30);
 }
+
 
 function inserir(letra) {
 primeira_escolha.innerHTML += letra;
