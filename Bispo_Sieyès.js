@@ -18,7 +18,7 @@ primeira_escolha.innerHTML += letra;
 count++;
 if(count < texto.length)
 window.setTimeout(function() { inserir(texto[count]) }, 30);
-primeira_escolha2.innerHTML += letra;
+$("#primeira_escolha2").append(letra);
 count++;
 if(count < textoviu.length)
 window.setTimeout(function() { inserir(textoviu[count]) }, 30);
