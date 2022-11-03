@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://user-images.githubusercontent.com/115473530/199792461-5cf9e9be-3b82-4cf1-afd3-31783c855197.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(3, 0, 44);
+    font-size: 25px;
+    }
+button{
+    background-color: bisque;
+    color: black;
+}
+h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: azure;
+    font-style: italic;
+    text-align: center;
+    border: 3px;
+    border-color: rgb(250, 239, 145);
+    border-style: solid;
+    background-image: url(https://user-images.githubusercontent.com/115473530/199798629-98202e75-063f-49c0-b554-f28ede3574d0.jpg);
+    background-size: auto;
+    margin-bottom: 205px;
+}
