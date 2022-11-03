@@ -155,7 +155,7 @@ a:hover span:nth-child(2){
 	transform: scale(1);
 	transition-delay: 0s;
 	opacity: 0;
-	z-index: 10;
+	z-index: 1;
 	transition-delay: 0.5s;
 }
 
