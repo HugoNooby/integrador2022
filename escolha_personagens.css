@@ -62,7 +62,6 @@ flex-direction: row;
  justify-content: space-around;
 }
 
-
 .card:hover{
   transform: translateX(50%);
 }
