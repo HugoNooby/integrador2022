@@ -3,7 +3,8 @@
 }
 h4, h3, h5 { font-color: black;
   font-style: cursive;
-  font-weight: normal
+  font-family: cursive;
+  font-weight: normal;
 }
 
 .border {
