@@ -15,7 +15,16 @@ h4, h3, h5 { font-color: black;
 }
 
 .button {
-  background: #069cc2; 
+  background: #4169E1; 
+  border-radius: 6px; 
+  padding: 15px; 
+  cursor: pointer; 
+  color: #fff; 
+  border: none; 
+  font-size: 16px
+}
+.button2 {
+  background: #EB0909; 
   border-radius: 6px; 
   padding: 15px; 
   cursor: pointer; 
