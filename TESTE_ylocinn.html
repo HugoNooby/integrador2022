@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo DW</title>
-    <link rel="stylesheet" type="text/css" href="TESTE_ylocinn.css">
+    <link rel="stylesheet" href="TESTE_ylocinn.css">
   </head>
   <body>
     <header>
-      <a href="" class"logo">Logo</a>
+      <a href="" class="logo">Rattlesnake</a>
       <ul>
         <li><a href="" class="active">Home</a></li>
         <li><a href="">Sobre</a></li>
@@ -22,8 +22,78 @@
     <img src="https://user-images.githubusercontent.com/115472908/199566907-12c16848-cb34-4bd9-8211-43e735e4e613.png" alt="" id="moon">
      <img src="https://user-images.githubusercontent.com/115472908/199566989-7c308cb0-ff3d-4711-80e7-7d5aec9b7f50.png" alt="" id="mountains_behind">
       <h2 id="text">Por Trás De Um Lema</h2>
-      <a href="" id="btn">Play</a>
+      <a href="#sec" id="btn">Play</a>
       <img src="https://user-images.githubusercontent.com/115472908/199567092-537fcfd8-e210-444d-970b-a9e4af46f176.png" alt="" id="mountains_front">
        </section>
+
+       <div class="sec" id="sec">
+        <h2>Bem-vindo(a) ao Jogo!</h2>
+        <p> 1— “Nada acontece duas vezes da mesma maneira.”
+
+- As Crônicas de Nárnia
+
+As Crônicas de Nárnia
+
+2— “Nem tudo está perdido como parece… sabe, coisas extraordinárias só acontecem a pessoas extraordinárias, vai ver é um sinal que você tem um destino extraordinário, algum destino maior do que você pode ter imaginado.”
+
+As Crônicas de Nárnia
+
+3— “Chorar ajuda por um tempo, mas depois é preciso parar de chorar e tomar uma decisão”.
+
+As Crônicas de Nárnia
+
+4— “Estou do lado de Aslam, mesmo que não haja Aslam. Quero viver como um Narniano, mesmo que Nárnia não exista”.
+
+As Crônicas de Nárnia
+
+5— “As bruxas em geral são assim. Não estão jamais interessadas nas coisas ou nas pessoas, mas na utilidade eventual destas”.
+
+As Crônicas de Nárnia<br><br>
+
+6— “Embora a prisão deles esteja unicamente em suas próprias mentes, eles continuam lá. E tem tanto medo de serem ludibriados de novo que não conseguem livrar-se”.
+
+As Crônicas de Nárnia
+
+7— “Mas se você sabe o que é isso, se já passou a noite toda acordado e chorou até acabarem as lágrimas… Então você sabe que, no fim, desce sobre nós uma grande calma. Chegamos até a ter a sensação que nada mais nos poderá acontecer”.
+
+As Crônicas de Nárnia
+
+8— “Todos conquistam o que desejam, mas nem sempre se satisfazem com isso”.
+
+9– “Nárnia, Nárnia, desperte! Ame!
+Pense! Fale! Que as árvores caminhem!
+Que os animais falem! Que as águas sejam divinas!”
+
+As Crônicas de Nárnia
+
+10– “Gente grande tem mania de dar explicações sem graça”.
+
+As Crônicas de Nárnia
+          
+        </p>
+      </div>
+
+      <script type="text/javascript">
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let mountains_front = document.getElementById('mountains_front');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll',function() {
+          let value = window.scrollY;
+          stars.style.left = value * 0.25 +'px';
+          moon.style.top = value * 1.05 +'px';
+          mountains_behind.style.top = value * 0.5 +'px';
+          mountains_front.style.top = value * 0 +'px';
+          text.style.marginRight = value * 4 +'px';
+          text.style.marginTop = value * 1.5 +'px';
+          btn.style.marginRight = value * 1.5 +'px';
+          header.style.marginRight = value * 0.5 +'px';
+
+        }) 
+      </script>
   </body>
 </html>
