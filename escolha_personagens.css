@@ -12,8 +12,9 @@ body{
  justify-content: center;
  align-items: center;
  min-height: 100vh;
- background-image: url("https://user-images.githubusercontent.com/115473490/199793369-7302542c-63d9-46a0-9dce-4a90d2abc3ff.jpg");
  flex-direction: column;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
 }
 
 .conteudo-principal {
