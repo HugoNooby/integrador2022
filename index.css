@@ -8,11 +8,11 @@
 }
 body{
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
   background: linear-gradient(#FE2E2E, #FFFFFF, #2E64FE);
 }
 header{
-  position: absolute;
+  position: absolute;  
   top: 0;
   left: 0;
   width: 100%;
@@ -49,6 +49,9 @@ header ul li a:hover,
 header ul li a.active{
 background: #fff;
   color: #2b1055;
+}
+.dark:hover{
+background: black;
 }
 section
 {
@@ -93,7 +96,6 @@ right: -350px;
   white-space: nowrap;
   font-size: 7.5vw;
   z-index: 9;
-  transform: translateY(100px);
 }
 #mountains_front
 {
