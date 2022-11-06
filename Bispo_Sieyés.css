@@ -14,21 +14,87 @@ h4, h3, h5 { font-color: black;
   border-image: url("./132d0b11f96dcffaa700966900312a52.jpg") 150 round;
 }
 
-.button {
-  background: #4169E1; 
-  border-radius: 6px; 
-  padding: 15px; 
-  cursor: pointer; 
-  color: #fff; 
-  border: none; 
-  font-size: 16px
+.botoes {
+display: flex;
+flex-direction: row;
 }
-.button2 {
-  background: #EB0909; 
-  border-radius: 6px; 
-  padding: 15px; 
-  cursor: pointer; 
-  color: #fff; 
-  border: none; 
-  font-size: 16px
+
+a{
+	position: relative;
+	width: 160px;
+	height: 50px;
+	margin: 15px 10px;
+	background: #fff;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
+
+a::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 4px;
+	height: 100%;
+	background: #4169E1;
+	transition: 0.5s ease-in-out;
+	transition-delay: 0.5s;
+}
+
+a::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 4px;
+	height: 100%;
+	background: #EB0909;
+	transition: 0.5s ease-in-out;
+	transition-delay: 0.5s;
+}
+
+a:hover::after{
+	width: 50%;
+	transition-delay: 0s;
+}
+
+a:hover::before{
+	width: 50%;
+	transition-delay: 0s;
+}
+
+a span{
+	font-family: Copperplate, Papyrus, fantasy;
+	position: absolute;
+	z-index: 1;
+	color: #000;
+	font-size: 16px;
+	transition: 0.5s;
+}
+
+a span:nth-child(1){
+	transition-delay: 0.75s;
+}
+
+a:hover span:nth-child(1){
+	transform: scale(0);
+	transition-delay: 0s;
+}
+
+a span:nth-child(2){
+	transform: scale(3);
+	opacity: 0;
+	color: #000;
+	transition-delay: 0s;
+}
+
+/*a:hover span:nth-child(2){
+	transform: scale(1);
+	transition-delay: 0s;
+	opacity: 0;
+	z-index: 10;
+	transition-delay: 0.5s;
+}*/
