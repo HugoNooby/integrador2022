@@ -1,5 +1,5 @@
-const Ejulho = document.querySelector("Ejulho");
-const acreditoobserve = document.querySelector("acreditoobserve");
+const Ejulho = document.querySelector(".Ejulho");
+const acreditoobserve = document.querySelector(".acreditoobserve");
 
 function digitacao(texto, contador){
 
