@@ -1,6 +1,9 @@
 const Ejulho = document.querySelector(".Ejulho");
 const acreditoobserve = document.querySelector(".acreditoobserve");
 const Opovo = document.querySelector(".Opovo");
+const osguardas = document.querySelector(".osguardas");
+const fechouaporta = document.querySelector(".fechouaporta");
+const E1792 = document.querySelector(".E1792");
 
 function digitacao(texto, contador){
 
