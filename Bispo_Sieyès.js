@@ -49,8 +49,8 @@ digitacao3("O povo estava unido, seus instrumentos de trabalho estavam empunhado
 
 function Mudarestado(el) {
         var display = document.getElementById(el).style.display;
-        if(display == "none")
-            document.getElementById(el).style.display = 'block';
-        else
+        if(display == "block")
             document.getElementById(el).style.display = 'none';
+        else
+            document.getElementById(el).style.display = 'block';
     }
