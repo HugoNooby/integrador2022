@@ -38,7 +38,6 @@ body{
  flex-direction: column;
 }
 
-
 .conteudo-principal {
 display: flex;
 flex-direction: row;
