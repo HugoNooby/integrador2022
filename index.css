@@ -9,7 +9,8 @@
 body{
   min-height: 100vh;
   overflow-x: hidden;
-  background: linear-gradient(#FE2E2E, #FFFFFF, #2E64FE);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,87,1) 35%, rgba(234,236,244,1) 49%, rgba(139,5,5,1) 86%, rgba(133,3,3,1) 100%);
 }
 header{
   position: absolute;  
