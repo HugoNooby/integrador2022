@@ -8,7 +8,7 @@ if(contador < texto.length){
 		Ejulho.textContent += texto.charAt(contador);
 		contador++;
 		digitacao(texto, contador);
-	}, 90)
+	}, 30)
 
 }
 
@@ -21,7 +21,7 @@ if(contador < texto.length){
 		acreditoobserve.textContent += texto.charAt(contador);
 		contador++;
 		digitacao2(texto, contador);
-	}, 90)
+	}, 30)
 
 }
 
