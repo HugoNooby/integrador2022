@@ -27,8 +27,8 @@ footer{
 
 
 body{
-	background-color: #003491;
-	background-image: linear-gradient(to right, #003491 0%, #f7f7f7 46%, #980000 100%);
+	background-color: #05245c;
+	background-image: linear-gradient(to right, #05245c 0%, #f7f7f7 46%, #7f0303 100%);
 	background-size: 500% 100%;
 	
 	animation-name: background;
