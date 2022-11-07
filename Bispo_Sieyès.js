@@ -123,10 +123,11 @@ digitacao8("Guilhotina, um instrumento impiedoso, possui uma lâmina mais afiada
 
 function Mudarestado(el) {
         var display = document.getElementById(el).style.display;
-        if(display == "block")
+        if(display == "block"){
             document.getElementById(el).style.display = 'none';
-        else
+	}else{
             document.getElementById(el).style.display = 'block';
+	}
     }
 
 
