@@ -26,10 +26,23 @@ footer{
 }
 
 body{
-	background-image: url("https://user-images.githubusercontent.com/115473490/199793369-7302542c-63d9-46a0-9dce-4a90d2abc3ff.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	background: rgb(2,0,36);
+	background: linear-gradient(to right, rgba(2,0,36,1) 0%, rgba(0,0,87,1) 35%, rgba(234,236,244,1) 49%, rgba(139,5,5,1) 86%, rgba(133,3,3,1) 100%);
+	background-size: 500% 100%;
+	animation-name: background;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-interation-count: infinite;	
+}
+
+@keyframes background{
+	0%{
+		background-position-x: 0%;
+	}
+	100%{
+		background-position-x: 100%;
+	}
 }
 
 body{
@@ -203,3 +216,4 @@ a span:nth-child(2){
 	z-index: 10;
 	transition-delay: 0.5s;
 }*/
+
