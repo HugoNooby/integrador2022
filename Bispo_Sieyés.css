@@ -2,10 +2,8 @@
   color: white;
 }
 
-h4, h3, h5 { font-color: black;
-  font-style: cursive;
-  font-family: cursive;
-  font-weight: normal;
+h4, h3, h5 { 
+  font-family: 'Noto Serif', serif;
 }
 
 body{
