@@ -60,7 +60,7 @@ if(contador < texto.length){
 function typeWriter(txt,i) { //função
 	var speed = 50;
   if (i < txt.length) {
-    document.getElementsById("osguardas").innerHTML += txt.charAt(i);
+    document.getElementById("osguardas").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
