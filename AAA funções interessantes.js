@@ -11,3 +11,17 @@ function troca() {//para trocar a "página" a ser exibida
   //colocar text no lugar de html para trocar o texto somente, sem adicionar tags
 }
 
+
+//inicio lorem ipsum (texto sendo escrito automáticamente)
+var i = 0;
+var txt = 'texto a ser escrito'; //texto que vai ser digitado
+var speed = 50; //velocidade em milisegundos
+
+function typeWriter() { //função
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+//fim do lorem ipsum
