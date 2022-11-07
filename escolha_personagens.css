@@ -27,14 +27,15 @@ footer{
 
 
 body{
-	background: rgb(2,0,36);
-	background: linear-gradient(to right, rgba(2,0,36,1) 0%, rgba(0,0,87,1) 35%, rgba(234,236,244,1) 49%, rgba(139,5,5,1) 86%, rgba(133,3,3,1) 100%);
+	background-color: #003491;
+	background-image: linear-gradient(to right, #003491 0%, #f7f7f7 46%, #980000 100%);
 	background-size: 500% 100%;
+	
 	animation-name: background;
 	animation-duration: 5s;
 	animation-timing-function: ease-in-out;
 	animation-direction: alternate;
-	animation-interation-count: infinite;	
+	animation-iteration-count: infinite;	
 }
 
 @keyframes background{
