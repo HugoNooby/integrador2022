@@ -60,7 +60,7 @@ if(contador < texto.length){
 function typeWriter(txt,i) { //função
 	var speed = 50;
   if (i < txt.length) {
-    document.getElementsByClassName(".osguardas").innerHTML += txt.charAt(i);
+    document.getElementsById("osguardas").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
@@ -130,7 +130,7 @@ digitacao6("É 1792, deixe-me contar o que aconteceu nos últimos três anos que
 digitacao7("Seu voto mataria o rei, e o peso em sua consciência o afligiria pelo resto da vida. Mas nem todos pensavam assim. John Mcagainst, um dos membros, não suportava a ideia de ter como rei um traidor, e chegou à conclusão de que o voto contra a morte do soberano era uma traição ainda maior, então quis acabar com todos os que votaram a favor da vida de um rei infiel. No silêncio da madrugada enquanto o fazendeiro deixava garrafas de leite as portas das casas, dirigiu-se a elas e envenenou, com um elemento conhecido como arsênico, cada uma delas. Às cinco da tarde encontraram Emmanuel Sieyès no chão de sua cozinha, não havia mais ar em seus pulmões, apena seu olhar consciente e aturdido."<br><br>"“Não posso escolher como me sinto, mas posso escolher o que fazer a respeito.” — William Shakespeare.", 0);
 digitacao8("Guilhotina, um instrumento impiedoso, possui uma lâmina mais afiada que os olhos famintos dos que se encontravam ali. Não lhe darei mais detalhes sobre o que aconteceu com rei Luís XVI, talvez sua imaginação já tenha contado. Mas então, onde está Emmanuel?", 0);
 
-function Mudarestado(el) {
+/*function Mudarestado(el) {
         var display = document.getElementById(el).style.display;
         if(display == "block"){
             document.getElementById(el).style.display = 'none';
@@ -138,7 +138,7 @@ function Mudarestado(el) {
             document.getElementById(el).style.display = 'block';
 	}
     }
-
+*/
 var num=0;
 function mostrar(){
 	if (num==0){
