@@ -23,6 +23,10 @@ body{
 	animation-iteration-count: infinite;	
 }
 
+img {
+	width: 250px;
+}
+
 @keyframes background{
 	0%{
 		background-position-x: 0%;
