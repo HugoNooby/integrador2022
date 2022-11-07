@@ -130,4 +130,13 @@ function Mudarestado(el) {
 	}
     }
 
-
+var num=0;
+function mostrar(){
+	if (num==0){
+		document.getElementById('minhaDiv') = 'block';
+		num=1;
+	}else{
+		document.getElementById('minhaDiv') = 'none';
+		num=0;
+	}
+}
