@@ -1,10 +1,37 @@
 .container {
   color: white;
 }
+
 h4, h3, h5 { font-color: black;
   font-style: cursive;
   font-family: cursive;
   font-weight: normal;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #05245c;
+	background-image: linear-gradient(to right, #05245c 0%, #f7f7f7 46%, #7f0303 100%);
+	background-size: 500% 100%;
+	
+	animation-name: background;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;	
+}
+
+@keyframes background{
+	0%{
+		background-position-x: 0%;
+	}
+	100%{
+		background-position-x: 100%;
+	}
 }
 
 .border {
