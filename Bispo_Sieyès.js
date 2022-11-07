@@ -133,10 +133,10 @@ function Mudarestado(el) {
 var num=0;
 function mostrar(){
 	if (num==0){
-		document.getElementById('minhaDiv') = 'block';
+		document.getElementById('minhaDiv').style.display='block';
 		num=1;
 	}else{
-		document.getElementById('minhaDiv') = 'none';
+		document.getElementById('minhaDiv').style.display='none';
 		num=0;
 	}
 }
