@@ -147,3 +147,9 @@ a span:nth-child(2){
 	z-index: 10;
 	transition-delay: 0.5s;
 }*/
+
+
+
+#minhaDiv {
+	display: none;
+}
