@@ -37,13 +37,6 @@ body{
 	}
 }
 
-.border {
-  border: 30px solid transparent;
-  font-size: 40px;
-  background-color: white;
-  border-image: url("./132d0b11f96dcffaa700966900312a52.jpg") 150 round;
-}
-
 .botoes {
 display: flex;
 flex-direction: row;
@@ -95,6 +88,7 @@ a:hover::before{
 	width: 50%;
 	transition-delay: 0s;
 }
+
 
 .abacate {
   width: 100%;
