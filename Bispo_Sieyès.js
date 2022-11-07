@@ -1,11 +1,11 @@
-const Ejulho = document.querySelector(".Ejulho");
-const acreditoobserve = document.querySelector(".acreditoobserve");
-const Opovo = document.querySelector(".Opovo");
-const osguardas = document.querySelector(".osguardas");
-const fechouaporta = document.querySelector(".fechouaporta");
-const E1792 = document.querySelector(".E1792");
-const seuvoto = document.querySelector(".seuvoto");
-const guilhotina = document.querySelector(".guilhotina");
+const Ejulho = document.getElementsByClassName("Ejulho");
+const acreditoobserve = document.getElementsByClassName(".acreditoobserve");
+const Opovo = document.getElementsByClassName(".Opovo");
+const osguardas = document.getElementsByClassName(".osguardas");
+const fechouaporta = document.getElementsByClassName(".fechouaporta");
+const E1792 = document.getElementsByClassName(".E1792");
+const seuvoto = document.getElementsByClassName(".seuvoto");
+const guilhotina = document.getElementsByClassName(".guilhotina");
 
 function digitacao(texto, contador){
 
@@ -128,3 +128,5 @@ function Mudarestado(el) {
         else
             document.getElementById(el).style.display = 'block';
     }
+
+
