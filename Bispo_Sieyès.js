@@ -1,12 +1,15 @@
-const Ejulho = document.getElementsByClassName("Ejulho");
-const acreditoobserve = document.getElementsByClassName(".acreditoobserve");
-const Opovo = document.getElementsByClassName(".Opovo");
-const osguardas = document.getElementsByClassName(".osguardas");
-const fechouaporta = document.getElementsByClassName(".fechouaporta");
-const E1792 = document.getElementsByClassName(".E1792");
-const seuvoto = document.getElementsByClassName(".seuvoto");
-const guilhotina = document.getElementsByClassName(".guilhotina");
+const Ejulho = document.querySelector(".Ejulho");
+const acreditoobserve = document.querySelector(".acreditoobserve");
+const Opovo = document.querySelector(".Opovo");
+const osguardas = document.querySelector(".osguardas");
+const fechouaporta = document.querySelector(".fechouaporta");
+const E1792 = document.querySelector(".E1792");
+const seuvoto = document.querySelector(".seuvoto");
+const guilhotina = document.querySelector(".guilhotina");
 
+
+
+/*
 function digitacao(texto, contador){
 
 if(contador < texto.length){
@@ -45,7 +48,7 @@ if(contador < texto.length){
 }
 
 }
-/*
+
 function digitacao4(texto, contador){
 
 if(contador < texto.length){
@@ -56,7 +59,7 @@ if(contador < texto.length){
 	}, 30)
 
 }
-*/
+
 function typeWriter(txt,i) { //função
 	var speed = 50;
   if (i < txt.length) {
@@ -119,8 +122,23 @@ if(contador < texto.length){
 }
 
 }
+*/
 
 
+//função funcional
+function typeWrite(elemento){
+    const textoArray = elemento.innerHTML.split("");
+    elemento.innerHTML = '';
+    textoArray.forEach(function(letra,i){
+
+        setTimeout(function(){
+            elemento.innerHTML += letra;
+        },75*i)
+
+    });
+}
+
+/*
 digitacao("É julho de 1789, todos estão reunidos no palácio, o rei sentado ao trono, o clero em suas rezas, a nobreza já em luto, e em frente, o terceiro estado. Uma sensação de reviravoltas invade o local. A proclamação da Assembleia Nacional Constituinte está acontecendo.", 0);
 digitacao2("Acredito que o Bispo Sieyès, para os íntimos Emmanuel Sieyès, seja opoente aos nobres. Ano passado publicou uma obra fascinante, depondo que a nobreza seria um fardo para nossa economia, graças aos seus gastos mirabolantes, 'Vou para fora tomar um pouco de ar', pensou o bispo levantando-se e saindo pela porta ao fundo. Observe que, enquanto um membro está a proclamar da assembleia, é divertido analisar as diferentes expressões que cada grupo realiza, alguns parecem decepcionados, outros satisfeitos e ainda outros surpresos, mas não tanto quanto Emmanuel Sieyès ao voltar de seu passeio, parece que descobriu algo inesperado... ou nem tanto assim.", 0);
 digitacao3("O povo estava unido, seus instrumentos de trabalho estavam empunhados em suas cansadas mãos, um protesto, o início de uma revolução, foi o que viu através de uma janela no corredor real. Sinceramente, já esperávamos por isso. A desigualdade entre os três estados é nítida, uma grande crise econômica autora de fomes e mortes, pensamentos iluministas, influências americanas, a lista continua, tudo contribui para o momento em que nos encontramos agora. “Não há como impedir que, essas pessoas não façam o que já está consumindo seus corpos” novamente pensou o bispo. Mas você pode escolher o que elas farão.", 0);
@@ -130,7 +148,8 @@ digitacao6("É 1792, deixe-me contar o que aconteceu nos últimos três anos que
 digitacao7("Seu voto mataria o rei, e o peso em sua consciência o afligiria pelo resto da vida. Mas nem todos pensavam assim. John Mcagainst, um dos membros, não suportava a ideia de ter como rei um traidor, e chegou à conclusão de que o voto contra a morte do soberano era uma traição ainda maior, então quis acabar com todos os que votaram a favor da vida de um rei infiel. No silêncio da madrugada enquanto o fazendeiro deixava garrafas de leite as portas das casas, dirigiu-se a elas e envenenou, com um elemento conhecido como arsênico, cada uma delas. Às cinco da tarde encontraram Emmanuel Sieyès no chão de sua cozinha, não havia mais ar em seus pulmões, apena seu olhar consciente e aturdido."<br><br>"“Não posso escolher como me sinto, mas posso escolher o que fazer a respeito.” — William Shakespeare.", 0);
 digitacao8("Guilhotina, um instrumento impiedoso, possui uma lâmina mais afiada que os olhos famintos dos que se encontravam ali. Não lhe darei mais detalhes sobre o que aconteceu com rei Luís XVI, talvez sua imaginação já tenha contado. Mas então, onde está Emmanuel?", 0);
 
-/*function Mudarestado(el) {
+
+function Mudarestado(el) {
         var display = document.getElementById(el).style.display;
         if(display == "block"){
             document.getElementById(el).style.display = 'none';
@@ -139,6 +158,18 @@ digitacao8("Guilhotina, um instrumento impiedoso, possui uma lâmina mais afiada
 	}
     }
 */
+
+	
+typeWrite(Ejulho);
+typeWrite(acreditoobserve);
+typeWrite(Opovo);
+typeWrite(osguardas);
+typeWrite(fechouaporta);
+typeWrite(E1792);
+typeWrite(seuvoto);
+typeWrite(guilhotina);
+	
+	
 var num=0;
 function mostrar(){
 	if (num==0){
