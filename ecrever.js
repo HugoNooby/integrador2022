@@ -10,5 +10,5 @@ function typeWrite(elemento){
     
   });
 }
-const result = $("#result");
+const result = document.getElementById("result");
 typeWrite(result);
