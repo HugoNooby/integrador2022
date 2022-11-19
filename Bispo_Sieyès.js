@@ -7,7 +7,7 @@ function nextDialogue(){
     $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
-     $("#seta").show();
+    setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==4){
     $('#box').html('<div class="data-container"><a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a></div>') ;
@@ -26,4 +26,8 @@ function typeWrite(elemento){
         },50*i)
 
     });
+}
+
+function mostra(){
+  $("#seta").show();
 }
