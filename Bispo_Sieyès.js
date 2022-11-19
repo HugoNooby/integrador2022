@@ -3,11 +3,11 @@ var dialogue = ["É julho de 1789, todos estão reunidos no palácio, o rei sent
 const text = document.getElementById("text");
 function nextDialogue(){
   
-  if (textnum<=2){
+  if (textnum<=3){
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
     textnum++;
-  } else if (textnum==3){
+  } else if (textnum==4){
     text.innerHTML = "funciona";
   }else{
     textnum = 0;
