@@ -4,8 +4,10 @@ const text = document.getElementById("text");
 function nextDialogue(){
   
   if (textnum<=3){
+    $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
+     $("#seta").show();
     textnum++;
   } else if (textnum==4){
     $('#box').html('<div class="data-container"><a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a></div>') ;
