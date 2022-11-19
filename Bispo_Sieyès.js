@@ -8,7 +8,7 @@ function nextDialogue(){
     typeWrite(text);
     textnum++;
   } else if (textnum==4){
-    $('#box').html('<a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a>') ;
+    $('#box').html('<div class="data-container"><a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a></div>') ;
   }else{
     textnum = 0;
   }
