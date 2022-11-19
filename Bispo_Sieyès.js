@@ -10,7 +10,7 @@ function nextDialogue(){
     setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==4){
-    $('#box').html('<div class="data-container"><a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a></div><br><div class="data-container"><a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a></div>') ;
+    $('#box').html('<div class="data-container"><a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a></div><br><div class="data-container"><a href="ouviu.html"><span class="btn">Ouviu Algo Inusitado</span></a></div>') ;
   }else{
     textnum = 0;
   }
