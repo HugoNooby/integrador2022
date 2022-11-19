@@ -8,7 +8,7 @@ function nextDialogue(){
     typeWrite(text);
     textnum++;
   } else if (textnum==4){
-    text.innerHTML = "funciona";
+    text.innerHTML = "funciona " +'<a href="viu.html"><span class="btn">Viu Algo Inusitado</span></a>' ;
   }else{
     textnum = 0;
   }
