@@ -8,7 +8,7 @@ function nextDialogue(){
     typeWrite(text);
   } else if (textnum==2){
     $("#box").html("<div class="data-container"><a href="viu.html"><span class="btn">VIU ALGO INUSITADO</span></a></div><div class="data-container"><a href="ouviu.html"><span class="btn">OUVIU ALGO INUSITADO</span></a></div>")
-  else{
+  }else{
     textnum = 0;
   }
   
