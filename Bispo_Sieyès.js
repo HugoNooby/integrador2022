@@ -7,8 +7,10 @@ function nextDialogue(){
     textnum++;
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
+  } else if (textnum==2){
+    text.innerHTML = "funciona";
   }else{
-    textnum = 0;
+    textnum = -1;
   }
   
 }
