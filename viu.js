@@ -3,13 +3,13 @@ var dialogue = ['O povo estava unido, seus instrumentos de trabalho estavam empu
 const text = document.getElementById("text");
 function nextDialogue(){
   
-  if (textnum<=3){
+  if (textnum<=2){
     $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
-  } else if (textnum==4){
+  } else if (textnum==3){
     $('#box').html('<div class="data-container"><a href="bispoatacarsalao.html" class="button">ATACAR O SALÃO REAL</a></div><div class="data-container"><a href="bispo_atacarprisao8.html" class="button">ATACAR A PRISÃO DE OITO TORRES</a></div><div class="data-container"><a href="Bispo_Sieyès.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>');
   }else{
     textnum = 0;
