@@ -3,13 +3,13 @@ var dialogue = ['Seu voto mataria o rei, e o peso em sua consciência o afligiri
 const text = document.getElementById("text");
 function nextDialogue(){
   
-  if (textnum<=3){
+  if (textnum<=4){
     $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
-  } else if (textnum==4){
+  } else if (textnum==5){
     $('#box').html('<div class="data-container"><a href="bispoesconder.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
   }else{
     textnum = 0;
