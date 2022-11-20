@@ -31,10 +31,4 @@ function typeWrite(elemento){
 function mostra(){
   $("#seta").show();
 }
-$(window).ready(function () {
 
-  $(".main__nav-btn").click(function (){
-    $(".main_nav, .main_nav-btn").toggleClass("active");
-  });
-
-});
