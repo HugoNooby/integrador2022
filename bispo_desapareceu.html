@@ -2,30 +2,34 @@
 <html>
     <head>
         <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bispo Sieyès: Escolha </title>
         <link rel="stylesheet" href="Bispo_Sieyés.css" type="text/css">
         <link rel="shortcut icon" href="https://user-images.githubusercontent.com/115473490/200199761-5fa5a6fe-2489-4ff4-8b24-a9ac03762fdc.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
-	    <p>Leia atentamente a narrativa:</p>
-        <h3>É 1974, Bispo Sieyès desapareceu dos meios políticos por um tempo, mas finalmente voltou para que eu possa observá-lo mais um pouco. Depois que rei Luís XVI morreu, o Grande Terror começou. Sua esposa, rainha Maria Antonieta teve o mesmo final trágico que seu marido, condenada a guilhotina. Execuções eram feitas em público e em massa, um dos líderes jacobinos, chamado Robespierre enlouqueceu, disseminando a grande matança. Mas Emmanuel apareceu como um dos apoiadores de um golpe, o 9 de Termidor. Do que você acha, que se trata esse golpe?</h3>
-        <section class="botoes"> 
-		<p>Escolha o rumo em que queira que a história tome (você poderá voltar caso mude de ideia):</p>
-		
-       			<a href="bispo_apoio.html">
-	       			<span>APOIO A MATANÇA</span>
-	      			<span>APOIO A MATANÇA</span>
-        		</a>
+        <div class="char_name">Bispo Sieyès</div>
+             <p id="text">Leia atentamente a narrativa:</p>
+                <button class="arrow"  onclick="nextDialogue()" id="seta"></button>
+        </div> <!--End box div-->
+<br>		
+                <div class="data-container">
+                    <a href="bispo_apoio.html" class="button">APOIO A MATANÇA</a>
+                </div>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        		<a  href="bispo_terror.html">
-	        		<span>FIM DO REGIME DO TERROR</span>
-	        		<span>FIM DO REGIME DO TERROR</span>
-        		</a>
-        </section>
-        <script src="Bispo_Sieyès.js"></script>
-    </body
+                <div class="data-container">
+                    <a href="bispo_terror.html" class="button">FIM DO REGIME DO TERROR</a>
+                </div>
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="data-container">
+                    <a href="contra_viu.html" class="button">VOLTAR E TENTAR NOVAMENTE</a>
+                </div>
+        <script src="bispo_desapareceu.js"></script>
+    </body>
 </html>
