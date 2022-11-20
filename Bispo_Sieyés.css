@@ -3,13 +3,13 @@
 }
 
 body{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	flex-direction: column;
-	background-color: white;
-	font-size:18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: white;
+  font-size:18px;
   font-family:verdana;
   color:white;
   text-shadow:rgb(0,0,0,.4) 2px 2px 3px;
@@ -17,7 +17,7 @@ body{
 
 
 #minhaDiv {
-	display: none;
+  display: none;
 }
 
 /*dialogo*/
@@ -32,6 +32,7 @@ div.box{
   bottom:0px;
   left:2%;
   border-radius:40px;
+  z-index: 2;
 }
 
 .char_name{
@@ -86,8 +87,9 @@ p#text{
 
 
 body  {
-    background-image: url('https://user-images.githubusercontent.com/115472908/199567092-537fcfd8-e210-444d-970b-a9e4af46f176.png');
-  background-size:cover;
+        background-image: url('https://user-images.githubusercontent.com/115472908/199567092-537fcfd8-e210-444d-970b-a9e4af46f176.png');
+        background-size:cover;
+        background-color: lightblue;
         -webkit-animation: slidein 100s;
         animation: slidein 100s;
 
@@ -133,4 +135,63 @@ to {background-position: -100px 0px;background-size:2750px;}
   color:white;
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
+  z-index: 1;
+}
+
+
+.button {
+  transition: all 0.8s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  color: #333333;
+  text-align: center;
+  vertical-align: middle;
+  border: 0px;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: 0;
+  position: relative;
+}
+.button:before,
+.button:after {
+  transition: all 0.8s ease-in-out;
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 0;
+  border-color: #333333;
+  width: 100%;
+  height: 100%;
+}
+.button:before {
+  border-top-width: 4px;
+  border-left-width: 4px;
+  top: -2px;
+  left: -2px;
+}
+.button:after {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+  bottom: -2px;
+  right: -2px;
+}
+
+.button:hover {
+  transition: all 0.2s ease-out;
+  color: #48c2c5;
+}
+.button:hover:before, .button:hover:after {
+  transition: all 0.2s ease-out;
+  border-color: #48c2c5;
+  width: 2em;
+  height: 2em;
+}
+.button:hover:before {
+  transform: translate(-0.5em, -0.5em);
+}
+.button:hover:after {
+  transform: translate(0.5em, 0.5em);
 }
