@@ -5,12 +5,12 @@ function nextDialogue(dialogue){
   
   if (textnum<=(dialogue.length)-1){
     $("#seta").hide();
-    document.getElementById("text").innerHTML = dialogue[textnum];
+   $("#text").text(dialogue[textnum]);
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==dialogue.length){
-    $('#box').html('<div class="data-container"><a href="ouviu.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
+    $('#box').html('') ;
   }else{
     textnum = 0;
   }
