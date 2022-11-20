@@ -2,19 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bispo Sieyès: Escolha </title>
         <link rel="stylesheet" href="Bispo_Sieyés.css" type="text/css">
         <link rel="shortcut icon" href="https://user-images.githubusercontent.com/115473490/200199761-5fa5a6fe-2489-4ff4-8b24-a9ac03762fdc.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
-	    <p id="texto">Leia atentamente a narrativa:</p>
-        <h3 id="texto">Seu voto mataria o rei, e o peso em sua consciência o afligiria pelo resto da vida. Mas nem todos pensavam assim. John Mcagainst, um dos membros, não suportava a ideia de ter como rei um traidor, e chegou à conclusão de que o voto contra a morte do soberano era uma traição ainda maior, então quis acabar com todos os que votaram a favor da vida de um rei infiel. No silêncio da madrugada enquanto o fazendeiro deixava garrafas de leite as portas das casas, dirigiu-se a elas e envenenou, com um elemento conhecido como arsênico, cada uma delas. Às cinco da tarde encontraram Emmanuel Sieyès no chão de sua cozinha, não havia mais ar em seus pulmões, apena seu olhar consciente e aturdido.<br><br>“Não posso escolher como me sinto, mas posso escolher o que fazer a respeito.” — William Shakespeare.</h3>
-        <a href="bispoesconder.html">
-	        <span>Voltar e tentar novamente</span>
-	        <span>Voltar e tentar novamente</span>
-        </a>
-        <script src="Bispo_Sieyès.js"></script>
+	    <div class="box" id="box">
+            <div class="char_name">Bispo Sieyès</div>
+             <p id="text">Leia atentamente a narrativa:</p>
+            <button class="arrow"  onclick="nextDialogue()" id="seta"></button>
+        </div> <!--End box div-->
+        <br><br>
+            <div class="data-container">
+                <a  href="bispoesconder.html" class="button">VOLTAR E TENTAR NOVAMENTE</a>
+            </div>
+        <script src="contra_viu.js"></script>
     </body>
 </html>
