@@ -31,4 +31,3 @@ function typeWrite(elemento){
 function mostra(){
   $("#seta").show();
 }
-alert("js conectado");
