@@ -10,7 +10,7 @@ function nextDialogue(){
     setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==4){
-    $('#box').html('<div class="data-container"><a href="bispoatacarsalao.html" class="button">ATACAR O SALÃO REAL</a></div><br><div class="data-container"><a href="bispo_atacarprisao8.html" class="button">ATACAR A PRISÃO DE OITO TORRES</a></div><br><div class="data-container"><a href="Bispo_Sieyès.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
+    $('#box').html('<div class="data-container"><a href="bispoatacarsalao.html" class="button">ATACAR O SALÃO REAL</a></div><div class="data-container"><a href="bispo_atacarprisao8.html" class="button">ATACAR A PRISÃO DE OITO TORRES</a></div><div class="data-container"><a href="Bispo_Sieyès.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>');
   }else{
     textnum = 0;
   }
