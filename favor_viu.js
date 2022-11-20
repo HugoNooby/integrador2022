@@ -3,13 +3,13 @@ var dialogue = ["Guilhotina, um instrumento impiedoso, possui uma lâmina mais a
 const text = document.getElementById("text");
 function nextDialogue(){
   
-  if (textnum<=3){
+  if (textnum<=1){
     $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
-  } else if (textnum==4){
+  } else if (textnum==2){
     $('#box').html('<div class="data-container"><a href="bispo_desapareceu.html" class="button">DESAPARECEU</a></div><br><div class="data-container"><a  href="bispo_fugiu.html" class="button">FUGIU POR CULPA</a></div><br><div class="data-container"><a href="bispoesconder.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
   }else{
     textnum = 0;
