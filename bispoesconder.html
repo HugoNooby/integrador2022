@@ -2,34 +2,34 @@
 <html>
     <head>
         <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bispo Sieyès: Escolha </title>
         <link rel="stylesheet" href="Bispo_Sieyés.css" type="text/css">
         <link rel="shortcut icon" href="https://user-images.githubusercontent.com/115473490/200199761-5fa5a6fe-2489-4ff4-8b24-a9ac03762fdc.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
-	    <p id="texto">Leia atentamente a narrativa:</p>
-        <h3 id="texto">Fechou a porta e saiu em direção a cozinha, havia uma pequena porta de madeira que levava ao lado de fora do palácio, junto com os restos de alimento desperdiçados durante as refeições reais. Por um instante parou, olhou para os despojos e, se sentiu como eles, inspirou e seguiu seu caminho.</h3>   
-        <br><br>
-      
-            <h3 id="texto">É 1792, deixe-me contar o que aconteceu nos últimos três anos que se passaram. Emmanuel se tornou presidente da Assembleia Constituinte e integrante da Convenção Nacional, também um pouco arrogante, a fama como teórico sucumbiu sua mente, porém sua falta de habilidade como orador, reduziu sua competência política. Ano passado o rei Luís XVI tentou fugir de Paris, alguns estão dizendo que ele nos traiu. Amanhã é o dia da última sessão de reuniões da Convenção, estão votando a favor e contra a morte do rei, não sei o que pensar sobre isso, mas talvez eu saiba no que Bispo Sieyès votou.</h3>
-            <br><br>
-		<p id="texto">Escolha o rumo em que queira que a história tome (você poderá voltar caso mude de ideia):</p>
-            <section class="botoes"> 
-       			<a href="contra_viu.html">
-	       			<span>Contra</span>
-	      			<span>Contra</span>
-        		</a>
+	    <div class="box" id="box">
+            <div class="char_name">Bispo Sieyès</div>
+             <p id="text">Leia atentamente a narrativa:</p>
+            <button class="arrow"  onclick="nextDialogue()" id="seta"></button>
+        </div> <!--End box div-->
+        
+       		<div class="data-container">
+                <a href="contra_viu.html" class="button">CONTRA</a>
+            </div>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        		<a  href="favor_viu.html">
-	        		<span>A Favor</span>
-	        		<span>A Favor</span>
-        		</a>
-            </section>
-        <script src="Bispo_Sieyès.js"></script>
+            <div class="data-container">
+                <a  href="favor_viu.html" class="button">A FAVOR</a>
+            </div>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="data-container">
+                <a  href="ouviu.html" class="button">VOLTAR E TENTAR NOVAMENTE</a>
+            </div>
+        <script src="bispoesconder.js"></script>
     </body>
 </html>
