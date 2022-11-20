@@ -14,10 +14,3 @@ function typeWrite(elemento){
 const titulo = document.querySelector(".titulo-principal");
 var tty = document.getElementById("result");
 typeWrite(tty);
-$(window).ready(function () {
-
-  $(".main__nav-btn").click(function (){
-    $(".main_nav, .main_nav-btn").toggleClass("active");
-  });
-
-});
