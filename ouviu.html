@@ -2,40 +2,35 @@
 <html>
     <head>
         <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <title>Bispo Sieyès: Escolha </title>
         <link rel="stylesheet" href="Bispo_Sieyés.css" type="text/css">
         <link rel="shortcut icon" href="https://user-images.githubusercontent.com/115473490/200199761-5fa5a6fe-2489-4ff4-8b24-a9ac03762fdc.png">
     </head>
     <body>
-	    <p id="texto">Leia atentamente a narrativa:</p>
-        <h3 id="texto">“A rumores de que o povo irá atacar o palácio às três da tarde, enquanto o soberano estiver com sua rainha” foi o que ouviu um soldado dizer, “Matarão os dois”, sussurrou para si. É interessante saber como Emmanuel pensou naquele momento, não estava preocupado, nem incomodado, seu olhar de indiferença entregou tudo. Não é segredo que seja contra a monarquia e a nobreza, e que defendeu o terceiro estado em outra de suas prestigiosas obras, dizendo que não precisavam de ambos os estamentos, mas desejaria ele a morte de seus soberanos?</h3> 
-        <br><br>
-	    <p id="texto">Escolha o rumo em que queira que a história tome (você poderá voltar caso mude de ideia):</p>
-	<section class="botoes"> 
-        	<a  href="bispo_sim.html">
-	        	<span>SIM</span>
-	        	<span>SIM</span>
-        	</a>
+	    
+	    		<div class="box" id="box">
+      				<div class="char_name">Bispo Sieyès</div>
+       		 		<p id="text">Leia atentamente a narrativa:</p>
+        			<button class="arrow"  onclick="nextDialogue()" id="seta"></button>
+    			</div> <!--End box div-->
+	
+        	<div class="data-container">
+     			<a href="bispo_sim.html" class="button">SIM</a>
+    		</div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        	<a  href="bispo_nao.html">
-	        	<span>Não</span>
-	        	<span>Não</span>
-        	</a>
+        	<div class="data-container">
+     			<a href="bispo_nao.html" class="button">NÃO</a>
+    		</div>
 		
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		
-		
-	<a href="Bispo_Sieyès.html">
-	        <span>Voltar e tentar novamente</span>
-	        <span>Voltar e tentar novamente</span>
-        </a>
-		
-	 </section>
-  	<script src="Bispo_Sieyès.js"></script>
+				<div class="data-container">
+     				<a href="Bispo_Sieyès.html" class="button">VOLTAR E TENTAR NOVAMENTE</a>
+    			</div>
+
+  	<script src="ouviu.js"></script>
      </body>
 </html>
