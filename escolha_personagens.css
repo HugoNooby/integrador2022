@@ -5,48 +5,95 @@
  font-family: 'Roboto', sans-serif;
 }
 
-footer{
-	box-sizing: border-box;
-	z-index: 3;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: #fff;
-	height: auto;
-	width: auto;
-	padding-top: 0px;
-	color: #000;
-	margin-left: 25px;
-	margin-right: 25px;
-}
- 
-.borda{
-	border-style: ridge;
+p{
+  font-size: 30px;
+  font-family: American Typewriter, serif;
 }
 
-body{
-	background-color: #05245c;
-	background-image: linear-gradient(to right, #05245c 0%, #f7f7f7 46%, #7f0303 100%);
-	background-size: 500% 100%;
-	
-	animation-name: background;
-	animation-duration: 5s;
-	animation-timing-function: ease-in-out;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;	
+body  {
+        background-image: url('https://user-images.githubusercontent.com/115472908/199567092-537fcfd8-e210-444d-970b-a9e4af46f176.png');
+        background-size:cover;
+        background-color: lightblue;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
 }
 
-@keyframes background{
-	0%{
-		background-position-x: 0%;
-	}
-	100%{
-		background-position-x: 100%;
-	}
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
 }
 
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
 
+}
+
+.button {
+  transition: all 0.8s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  color: #333333;
+  text-align: center;
+  vertical-align: middle;
+  border: 0px;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: 0;
+  position: relative;
+}
+.button:before,
+.button:after {
+  transition: all 0.8s ease-in-out;
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 0;
+  border-color: #333333;
+  width: 100%;
+  height: 100%;
+}
+.button:before {
+  border-top-width: 4px;
+  border-left-width: 4px;
+  top: -2px;
+  left: -2px;
+}
+.button:after {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+  bottom: -2px;
+  right: -2px;
+}
+
+.button:hover {
+  transition: all 0.2s ease-out;
+  color: #48c2c5;
+}
+.button:hover:before, .button:hover:after {
+  transition: all 0.2s ease-out;
+  border-color: #48c2c5;
+  width: 2em;
+  height: 2em;
+}
+.button:hover:before {
+  transform: translate(-0.5em, -0.5em);
+}
+.button:hover:after {
+  transform: translate(0.5em, 0.5em);
+}
 
 body{
  display: flex;
@@ -60,11 +107,6 @@ body{
 display: flex;
 flex-direction: row;
 align-items: center;
-}
-
-.botoes {
-display: flex;
-flex-direction: row;
 }
 
 .card{
@@ -140,83 +182,9 @@ flex-direction: row;
   line-height: 1em;
 }
 
-a{
-	position: relative;
-	width: 160px;
-	height: 50px;
-	margin: 15px 10px;
-	background: #fff;
-	text-decoration: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
+
+
+.botoes {
+display: flex;
+flex-direction: row;
 }
-
-a::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 4px;
-	height: 100%;
-	background: #4169E1;
-	transition: 0.5s ease-in-out;
-	transition-delay: 0.5s;
-}
-
-a::after{
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 4px;
-	height: 100%;
-	background: #EB0909;
-	transition: 0.5s ease-in-out;
-	transition-delay: 0.5s;
-}
-
-a:hover::after{
-	width: 50%;
-	transition-delay: 0s;
-}
-
-a:hover::before{
-	width: 50%;
-	transition-delay: 0s;
-}
-
-a span{
-	font-family: Copperplate, Papyrus, fantasy;
-	position: absolute;
-	z-index: 1;
-	color: #000;
-	font-size: 16px;
-	transition: 0.5s;
-}
-
-a span:nth-child(1){
-	transition-delay: 0.75s;
-}
-
-a:hover span:nth-child(1){
-	transform: scale(0);
-	transition-delay: 0s;
-}
-
-a span:nth-child(2){
-	transform: scale(3);
-	opacity: 0;
-	color: #000;
-	transition-delay: 0s;
-}
-
-/*a:hover span:nth-child(2){
-	transform: scale(1);
-	transition-delay: 0s;
-	opacity: 0;
-	z-index: 10;
-	transition-delay: 0.5s;
-}*/
-
