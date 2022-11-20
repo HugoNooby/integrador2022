@@ -2,21 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bispo Sieyès: Escolha </title>
         <link rel="stylesheet" href="Bispo_Sieyés.css" type="text/css">
         <link rel="shortcut icon" href="https://user-images.githubusercontent.com/115473490/200199761-5fa5a6fe-2489-4ff4-8b24-a9ac03762fdc.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
-	    <p id="texto">Leia atentamente a narrativa:</p>
-        <h3 id="texto">Não, com certeza não. Mas nem todos pensavam assim. John Mcagainst, um dos membros da assembleia, também estava lá, e ouviu tudo, até mesmo o sussurro mais baixo já dito, de Emmanuel. John acreditava que o rei era um traidor, e chegou à conclusão de que ser contra a morte do soberano era uma traição ainda maior, então quis acabar com o bispo. No silêncio da madrugada enquanto o fazendeiro deixava suas garrafas de leite as portas das casas, envenenou as de Emmanuel com um elemento conhecido como arsênico, cada uma delas. Às cinco da tarde encontraram Emmanuel Sieyès no chão de seu quarto, não havia mais ar em seus pulmões, apena seu olhar consciente e aturdido.<br><br>“Que suas escolhas reflitam suas esperanças, não seus medos.” Nelson Mandela.</h3>
+        <div class="box" id="box">
+            <div class="char_name">Bispo Sieyès</div>
+             <p id="text">Leia atentamente a narrativa:</p>
+            <button class="arrow"  onclick="nextDialogue()" id="seta"></button>
+        </div> <!--End box div-->
         <br><br>
-        <a href="ouviu.html">
-	        <span>VOLTAR E TENTAR NOVAMENTE</span>
-	        <span>VOLTAR E TENTAR NOVAMENTE</span>
-        </a>
-        <script src="Bispo_Sieyès.js"></script>
+        <div class="data-container">
+            <a  href="ouviu.html" class="button">VOLTAR E TENTAR NOVAMENTE</a>
+        </div>
+        <script src="bispo_nao.js"></script>
     </body>
 </html>
- 
