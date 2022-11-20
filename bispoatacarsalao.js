@@ -10,8 +10,7 @@ function nextDialogue(){
     setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==4){
-    $('#box').html('<div class="data-container">
-       			  <a href="bispoesconder.html" class="button">SE ESCONDER</a></div><div class="data-container"><a  href="bispojuntar.html" class="button">SE JUNTAR AO POVO</a></div><div class="data-container"><a href="viu.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
+    $('#box').html('<div class="data-container"><a href="bispoesconder.html" class="button">SE ESCONDER</a></div><div class="data-container"><a  href="bispojuntar.html" class="button">SE JUNTAR AO POVO</a></div><div class="data-container"><a href="viu.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
   }else{
     textnum = 0;
   }
@@ -32,3 +31,4 @@ function typeWrite(elemento){
 function mostra(){
   $("#seta").show();
 }
+alert("js conectado");
