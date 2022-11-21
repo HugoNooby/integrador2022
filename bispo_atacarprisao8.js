@@ -3,13 +3,13 @@ var dialogue = ["14 de julho, Bastilha a prisão, o grande símbolo político e 
 const text = document.getElementById("text");
 function nextDialogue(){
   
-  if (textnum<=dialogue.lenght-1){
+  if (textnum<=3){
     $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
-  } else if (textnum==dialogue.lenght){
+  } else if (textnum==4){
     $('#box').html('<div class="data-container"><a href="bispoesconder.html" class="button">SE ESCONDER</a></div><br><div class="data-container"><a href="bispojuntar.html" class="button">SE JUNTAR AO POVO</a></div><br><div class="data-container"><a href="viu.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
   }else{
     textnum = 0;
