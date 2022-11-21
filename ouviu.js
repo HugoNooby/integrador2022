@@ -3,13 +3,13 @@ var dialogue = ["'A rumores de que o povo irá atacar o palácio às três da ta
 const text = document.getElementById("text");
 function nextDialogue(){
   
-  if (textnum<=3){
+  if (textnum<=dialogue.lenght-1){
     $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
-  } else if (textnum==4){
+  } else if (textnum==dialogue.lenght){
     $('#box').html('<div class="data-container"><a href="bispo_sim.html" class="button">SIM</a></div><br><div class="data-container"><a href="bispo_nao.html" class="button">NÃO</a></div><br><div class="data-container"><a href="Bispo_Sieyès.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>') ;
   }else{
     textnum = 0;
