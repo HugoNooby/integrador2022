@@ -25,3 +25,48 @@ var conta_viu.js= ['Seu voto mataria o rei, e o peso em sua consciência o aflig
 var favor_viu.js= ["Guilhotina, um instrumento impiedoso, possui uma lâmina mais afiada que os olhos famintos dos que se encontravam ali. Não lhe darei mais detalhes sobre o que aconteceu com rei Luís XVI, talvez sua imaginação já tenha contado. Mas então, onde está Emmanuel?", "Escolha o rumo em que queira que a história tome "(você poderá voltar caso mude de ideia)]
 
 var ouviu.js= ["'A rumores de que o povo irá atacar o palácio às três da tarde, enquanto o soberano estiver com sua rainha' foi o que ouviu um soldado dizer, 'Matarão os dois', sussurrou para si. É interessante saber como Emmanuel pensou naquele momento, não estava preocupado, nem incomodado, seu olhar de indiferença entregou tudo. Não é segredo que seja contra a monarquia e a nobreza, e que defendeu o terceiro estado em outra de suas prestigiosas obras, dizendo que não precisavam de ambos os estamentos, mas desejaria ele a morte de seus soberanos?", "Escolha o rumo em que queira que a história tome "(você poderá voltar caso mude de ideia)]
+
+const text = document.getElementById("text");
+function nextDialogue(dialogue){
+  
+  if (textnum<=(dialogue.length-2)){
+    $("#seta").hide();
+   $("#text").text(dialogue[textnum]);
+    typeWrite(text);
+    setTimeout(mostra(),5000);
+    textnum++;
+  } else if (textnum==dialogue.length-1){
+    $('#box').html(botoes[dialogue[textnum]]) ;
+  }else{
+    textnum = 0;
+  }
+}
+
+function typeWrite(elemento){
+     const textoArray = elemento.innerHTML.split("");
+    elemento.innerHTML = '';
+    textoArray.forEach(function(letra,i){
+        setTimeout(function(){
+            elemento.innerHTML += letra;
+        },50*i)
+    });
+}
+
+function mostra(){
+  $("#seta").show();
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+integrador2022/Maria_Antonieta.js at main · HugoNooby/integrador2022
