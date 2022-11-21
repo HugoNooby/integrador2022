@@ -1,7 +1,9 @@
 .container {
   color: white;
 }
-
+header{
+  position: absolute;
+}
 #menu_h{
     list-style-type: none;
     padding: 0;
