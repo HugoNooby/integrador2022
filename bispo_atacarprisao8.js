@@ -3,7 +3,7 @@ var dialogue = ["14 de julho, Bastilha a prisão, o grande símbolo político e 
 const text = document.getElementById("text");
 function nextDialogue(){
   
-  if (textnum<=(dialogue.lenght-1)){
+  if (textnum<=dialogue.lenght-1){
     $("#seta").hide();
     document.getElementById("text").innerHTML = dialogue[textnum];
     typeWrite(text);
