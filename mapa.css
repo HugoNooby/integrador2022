@@ -1,13 +1,7 @@
 body{
   background-color: #1a2033;
 }
-#estilo{
-    color: #f8efc2;
-  background-color: #12623983;
-  border-style: solid;
-  border-color: #122c07;
-  border-radius: 20px;
-}
+
 #fundo{
   background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
   background-position: fixed;
@@ -58,7 +52,66 @@ h1{
   display:  inline-block;
   margin: 345px 0px 0px 617px;
 }
-
+.armarios{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.mirante{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.quadraareia{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.cantina{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.saladosprof{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.nas{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.blocod{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.blocoe{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.alojamentomasc{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.vestiario{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.academia{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
+.quadraaberta{
+position: absolute;
+display:  inline-block;
+margin: 0px 0px 0px 0px;
+}
 .dropdown-content{
   display: none;
   position: absolute;
