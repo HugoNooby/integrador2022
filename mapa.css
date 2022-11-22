@@ -1,0 +1,80 @@
+body{
+  background-image: url("mapa.jpeg");
+  background-size: cover;
+  background-color: blue;
+  align-items: center;
+}
+.dropdown{
+  position:  absolute;
+  display:  inline-block;
+  margin: 20px 0px 0px 720px;
+  
+}
+h1{
+  text-align: center;
+  color: #00FF00;
+}
+.quisques{
+  position: absolute;
+  display:  inline-block;
+  margin: 350px 0px 0px 840px;
+}
+.biblioteca{
+  position:  absolute;
+  display:  inline-block;
+  margin: 150px 0px 0px 350px;
+}
+.quadrafechada{
+  position: absolute;
+  display:  inline-block;
+  margin: 180px 0px 0px 590px;
+}
+.almoxarifado{
+  position: absolute;
+  display:  inline-block;
+  margin: 200px 0px 0px 880px;
+}
+.refeitorio{
+  position: absolute;
+  display:  inline-block;
+  margin: 290px 0px 0px 820px;
+}
+.entrada{
+  position: absolute;
+  display:  inline-block;
+  margin: 260px 0px 0px 623px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.quisques:hover .dropdown-content{
+  display: block;
+}
+.biblioteca:hover .dropdown-content{
+  display: block;
+}
+.quadrafechada:hover .dropdown-content{
+  display: block;
+}
+.almoxarifado:hover .dropdown-content{
+  display: block;
+}
+.refeitorio:hover .dropdown-content{
+  display: block;
+}
+.entrada:hover .dropdown-content{
+  display: block;
+}
+.desc{
+  padding: 5px;
+  text-align: center;
+}
