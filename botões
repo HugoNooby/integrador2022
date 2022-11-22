@@ -1,0 +1,23 @@
+<!--html-->
+      <div id="nav">
+        <nav ><a href="https://hugonooby.github.io/integrador2022/grupo.html" class="botao_nav">Créditos</a> <a href="" class="botao_nav">Informações</a></nav>
+      </div>
+<!--css-->
+#nav{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.botao_nav{
+    text-decoration: none;
+    background-color: rgb(248, 136, 0);
+    border-style: solid;
+    border-color: #000000;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.botao_nav:hover{
+    color: rgb(0, 212, 81);
+    background-color: rgb(94, 94, 94);
+}
