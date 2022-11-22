@@ -1,6 +1,8 @@
 body{
 background-color: #202547;
-  background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
+}
+.fundo{
+ background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
