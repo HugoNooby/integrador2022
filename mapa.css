@@ -1,5 +1,5 @@
-
-.fundo{
+body{
+background-color: #202547;
   background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
   background-position: fixed;
   background-repeat: no-repeat;
@@ -7,10 +7,6 @@
   border-radius: 50px;
   border: solid 10px;
   border-color: lightblue;
-}
-
-body{
-background-color: #202547;
 }
 
 .dropdown{
