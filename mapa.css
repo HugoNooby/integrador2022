@@ -55,22 +55,22 @@ h1{
 .armarios{
 position: absolute;
 display:  inline-block;
-margin: 0px 0px 0px 0px;
+margin: 300px 0px 0px 500px;
 }
 .mirante{
 position: absolute;
 display:  inline-block;
-margin: 0px 0px 0px 0px;
+margin: 540px 0px 0px 600px;
 }
 .quadraareia{
 position: absolute;
 display:  inline-block;
-margin: 0px 0px 0px 0px;
+margin: 0px 0px 0px 900px;
 }
 .cantina{
 position: absolute;
 display:  inline-block;
-margin: 0px 0px 0px 0px;
+margin: 10px 0px 0px 400px;
 }
 .saladosprof{
 position: absolute;
