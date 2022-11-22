@@ -82,6 +82,42 @@ h1{
 .entrada:hover .dropdown-content{
   display: block;
 }
+.armarios:hover .dropdown-content{
+  display: block;
+}
+.mirante:hover .dropdown-content{
+  display: block;
+}
+.quadraareia:hover .dropdown-content{
+  display: block;
+}
+.cantina:hover .dropdown-content{
+  display: block;
+}
+.saladosprof:hover .dropdown-content{
+  display: block;
+}
+.nas:hover .dropdown-content{
+  display: block;
+}
+.blocod:hover .dropdown-content{
+  display: block;
+}
+.blocoe:hover .dropdown-content{
+  display: block;
+}
+.alojamentomasc:hover .dropdown-content{
+  display: block;
+}
+.vestiario:hover .dropdown-content{
+  display: block;
+}
+.academia:hover .dropdown-content{
+  display: block;
+}
+.quadraaberta:hover .dropdown-content{
+  display: block;
+}
 .desc{
   padding: 5px;
   text-align: center;
