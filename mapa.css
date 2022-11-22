@@ -4,6 +4,7 @@ body{
 
 #fundo{
   background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
+  background-position: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 50px;
@@ -14,7 +15,7 @@ body{
 .dropdown{
   position:  absolute;
   display:  inline-block;
-  margin: 20px 0px 0px 720px;
+  margin: 130px 0px 0px 720px;
   
 }
 h1{
@@ -24,32 +25,32 @@ h1{
 .quisques{
   position: absolute;
   display:  inline-block;
-  margin: 350px 0px 0px 840px;
+  margin: 420px 0px 0px 870px;
 }
 .biblioteca{
   position:  absolute;
   display:  inline-block;
-  margin: 150px 0px 0px 350px;
+  margin: 240px 0px 0px 350px;
 }
 .quadrafechada{
   position: absolute;
   display:  inline-block;
-  margin: 180px 0px 0px 590px;
+  margin: 220px 0px 0px 550px;
 }
 .almoxarifado{
   position: absolute;
   display:  inline-block;
-  margin: 200px 0px 0px 880px;
+  margin: 270px 0px 0px 880px;
 }
 .refeitorio{
   position: absolute;
   display:  inline-block;
-  margin: 290px 0px 0px 820px;
+  margin: 370px 0px 0px 810px;
 }
 .entrada{
   position: absolute;
   display:  inline-block;
-  margin: 260px 0px 0px 623px;
+  margin: 345px 0px 0px 617px;
 }
 
 .dropdown-content{
