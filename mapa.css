@@ -28,37 +28,31 @@ body{
   position: absolute;
   display:  inline-block;
   margin: 350px 0px 0px 840px;
-  border-bottom: #122c07 solid;
 }
 .biblioteca{
   position:  absolute;
   display:  inline-block;
   margin: 150px 0px 0px 350px;
-  border-bottom: #122c07 solid;
 }
 .quadrafechada{
   position: absolute;
   display:  inline-block;
   margin: 180px 0px 0px 590px;
-  border-bottom: #122c07 solid;
 }
 .almoxarifado{
   position: absolute;
   display:  inline-block;
   margin: 200px 0px 0px 880px;
-  border-bottom: #122c07 solid;
 }
 .refeitorio{
   position: absolute;
   display:  inline-block;
   margin: 290px 0px 0px 820px;
-  border-bottom: #122c07 solid;
 }
 .entrada{
   position: absolute;
   display:  inline-block;
   margin: 260px 0px 0px 623px;
-  border-bottom: #122c07 solid;
 }
 
 .dropdown-content{
@@ -74,39 +68,21 @@ body{
 }
 .quisques:hover .dropdown-content{
   display: block;
-  border-style: solid;
-    border-color: #122c07;
-    border-radius: 5px;
 }
 .biblioteca:hover .dropdown-content{
   display: block;
-  border-style: solid;
-    border-color: #122c07;
-    border-radius: 5px;
 }
 .quadrafechada:hover .dropdown-content{
   display: block;
-  border-style: solid;
-    border-color: #122c07;
-    border-radius: 5px;
 }
 .almoxarifado:hover .dropdown-content{
   display: block;
-  border-style: solid;
-    border-color: #122c07;
-    border-radius: 5px;
 }
 .refeitorio:hover .dropdown-content{
   display: block;
-  border-style: solid;
-    border-color: #122c07;
-    border-radius: 5px;
 }
 .entrada:hover .dropdown-content{
   display: block;
-  border-style: solid;
-    border-color: #122c07;
-    border-radius: 5px;
 }
 .desc{
   padding: 5px;
