@@ -2,7 +2,7 @@ body{
 background-color: #202547;
 }
 #muda{
- color: #fff;
+ color: white;
 }
 #fundo{
  background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
@@ -201,4 +201,5 @@ margin: 100px 0px 0px 860px;
     color: rgb(0, 212, 81);
     background-color: rgb(94, 94, 94);
 }
+
 
