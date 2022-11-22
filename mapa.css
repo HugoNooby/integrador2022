@@ -1,8 +1,21 @@
+*{
+  font-family: OCR A Std, monospace;
+}
+#titulo{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  color: #f8efc2;
+  background-color: #12623983;
+  border-style: solid;
+  border-color: #122c07;
+  border-radius: 20px;
 body{
-  background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
-  background-size: cover;
-  background-color: blue;
-  align-items: center;
+    background-image: url("https://user-images.githubusercontent.com/115472908/203187427-fb485e63-9212-40fa-8083-89aeedc3d2ff.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
 }
 .dropdown{
   position:  absolute;
@@ -10,39 +23,42 @@ body{
   margin: 20px 0px 0px 720px;
   
 }
-h1{
-  text-align: center;
-  color: #00FF00;
-}
+
 .quisques{
   position: absolute;
   display:  inline-block;
   margin: 350px 0px 0px 840px;
+  border-bottom: #122c07 solid;
 }
 .biblioteca{
   position:  absolute;
   display:  inline-block;
   margin: 150px 0px 0px 350px;
+  border-bottom: #122c07 solid;
 }
 .quadrafechada{
   position: absolute;
   display:  inline-block;
   margin: 180px 0px 0px 590px;
+  border-bottom: #122c07 solid;
 }
 .almoxarifado{
   position: absolute;
   display:  inline-block;
   margin: 200px 0px 0px 880px;
+  border-bottom: #122c07 solid;
 }
 .refeitorio{
   position: absolute;
   display:  inline-block;
   margin: 290px 0px 0px 820px;
+  border-bottom: #122c07 solid;
 }
 .entrada{
   position: absolute;
   display:  inline-block;
   margin: 260px 0px 0px 623px;
+  border-bottom: #122c07 solid;
 }
 
 .dropdown-content{
@@ -58,21 +74,39 @@ h1{
 }
 .quisques:hover .dropdown-content{
   display: block;
+  border-style: solid;
+    border-color: #122c07;
+    border-radius: 5px;
 }
 .biblioteca:hover .dropdown-content{
   display: block;
+  border-style: solid;
+    border-color: #122c07;
+    border-radius: 5px;
 }
 .quadrafechada:hover .dropdown-content{
   display: block;
+  border-style: solid;
+    border-color: #122c07;
+    border-radius: 5px;
 }
 .almoxarifado:hover .dropdown-content{
   display: block;
+  border-style: solid;
+    border-color: #122c07;
+    border-radius: 5px;
 }
 .refeitorio:hover .dropdown-content{
   display: block;
+  border-style: solid;
+    border-color: #122c07;
+    border-radius: 5px;
 }
 .entrada:hover .dropdown-content{
   display: block;
+  border-style: solid;
+    border-color: #122c07;
+    border-radius: 5px;
 }
 .desc{
   padding: 5px;
