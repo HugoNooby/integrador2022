@@ -53,4 +53,4 @@ function typeWrite(elemento){
 function mostra(){
   $("#seta").show();
 }
-alert("conectado mas não funcionando");
+//alert("conectado mas não funcionando");
