@@ -28,10 +28,9 @@ const text = document.getElementById("text");
 function nextDialogue(dialogue){
   
   if (textnum<=(dialogue.length-2)){
-    $("#seta").hide();
+    $("#seta").fadeToggle('fast');
    $("#text").text(dialogue[textnum]);
-    clearTimeout(type);
-    setTimeout(typeWrite(text));
+    typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==dialogue.length-1){
@@ -44,11 +43,12 @@ function nextDialogue(dialogue){
 function typeWrite(elemento){
      const textoArray = elemento.innerHTML.split("");
     elemento.innerHTML = '';
-     type = setTimeout(textoArray.forEach(function(letra,i){
+     textoArray.forEach(function(letra,i){
         setTimeout(function type(){
             elemento.innerHTML += letra;
         },50*i)
-    }),0);
+    });
+  $("#seta")fadeToggle(fast);
 }
 
 function mostra(){
