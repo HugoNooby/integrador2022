@@ -53,3 +53,4 @@ function typeWrite(elemento){
 function mostra(){
   $("#seta").show();
 }
+alert("conectado mas não funcionando")
