@@ -28,7 +28,7 @@ const text = document.getElementById("text");
 function nextDialogue(dialogue){
   
    if (textnum<=(dialogue.length-2)){
-    $("#seta").hide();
+    $("#seta").fadeToggle(50);
    $("#text").text(dialogue[textnum]);
     typeWrite(text);
     setTimeout(mostra(),5000);
@@ -53,4 +53,4 @@ function typeWrite(elemento){
 function mostra(){
   $("#seta").show();
 }
-alert("conectado mas não funcionando")
+//alert("conectado mas não funcionando");
