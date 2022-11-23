@@ -30,7 +30,7 @@ function nextDialogue(dialogue){
   
   if (textnum<=(dialogue.length-2)){
     $("#seta").hide();
-    $('#box').html('<div class="char_name">Maria Antonieta</div><p id="text"></p><button class="arrow"  onclick="nextDialogue('+pag[dialogue.lenght-1]+')" id="seta"></button>') ;
+    $('#box').html('<div class="char_name">Maria Antonieta</div><p id="text"></p><button class="arrow"  onclick="nextDialogue('+pag[dialogue[dialogue.lenght-1]]+')" id="seta"></button>') ;
     $("#text").text(dialogue[textnum]);
     typeWrite(text);
     setTimeout(mostra(),5000);
