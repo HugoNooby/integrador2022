@@ -30,6 +30,7 @@ function nextDialogue(dialogue){
   if (textnum<=(dialogue.length-2)){
     $("#seta").hide();
    $("#text").text(dialogue[textnum]);
+    clearTimeout(type());
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
@@ -44,7 +45,7 @@ function typeWrite(elemento){
      const textoArray = elemento.innerHTML.split("");
     elemento.innerHTML = '';
     textoArray.forEach(function(letra,i){
-        setTimeout(function(){
+        setTimeout(function type(){
             elemento.innerHTML += letra;
         },50*i)
     });
