@@ -30,8 +30,8 @@ function nextDialogue(dialogue){
   if (textnum<=(dialogue.length-2)){
     $("#seta").hide();
    $("#text").text(dialogue[textnum]);
-    clearTimeout(type());
-    typeWrite(text);
+    clearTimeout(typeWrite());
+    setTimeout(typeWrite(text));
     setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==dialogue.length-1){
