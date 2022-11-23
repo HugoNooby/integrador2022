@@ -23,17 +23,13 @@ var fugir = ['Quando entraram no quarto da rainha, não havia ninguém, ela cons
 
 //botoes
 var botoes = [0,'<div class="data-container"><a href="antonieta_sim_pg1.html" class="button">Sim</a></div><div class="data-container"><a href="naoantonieta.html" class="button">Não</a></div>','<div class="data-container"><a href="antonieta.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="insolente.html" class="button">Responder de forma insolente</a></div><div class="data-container"><a href="semresposta.html" class="button">Seguir sem resposta</a></div><div class="data-container"><a href="antonieta" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="naoantonieta.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="envenenarbebida.html" class="button">envenenar sua bebida</a></div><div class="data-container"><a href="muitagenteaqui.html" class="button">Falar que tem muita gente aqui</a></div><div class="data-container"><a href="naoantonieta.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="semresposta.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="ciumes.html" class="button">Causar ciúmes</a></div><div class="data-container"><a href="organizarbailes.html" class="button">Organizar bailes</a></div><div class="data-container"><a href=".html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="muitagenteaqui.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="dispensar.html" class="button">Dispensar as ideias do irmão</a></div><div class="data-container"><a href="aceitar.html" class="button">Aceitar os conselhos</a></div><div class="data-container"><a href=".html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="organizarbailes.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="ficar.html" class="button">Ficar na Cidade</a></div><div class="data-container"><a href="sair.html" class="button">Sair dos Excessos da Corte</a></div><div class="data-container"><a href=".html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="aceitar.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="ouvir.html" class="button">Repreendeer Críticas</a></div><div class="data-container"><a href="nouvir.html" class="button">Deixar Passar</a></div><div class="data-container"><a href=".html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="sair.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="desistir.html" class="button">Desistir de tudo</a></div><div class="data-container"><a href="resistir.html" class="button">Tentar superar</a></div><div class="data-container"><a href=".html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="nouvir.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="esperar.html" class="button">Confiar nos Guardas</a></div><div class="data-container"><a href="fugir.html" class="button">Tentar Fugir</a></div><div class="data-container"><a href=".html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="resistir.html" class="button">VOLTAR E TENTAR NOVAMENTE</a></div>','<div class="data-container"><a href="escolha_personagens.html" class="button">Sair</a></div>'];
-var pag = [0,'antonieta','antonieta_sim_pg1','naoantoneta','insolente','semresposta','envenenarbebida','muitagenteaqui','ciumes','organizarbailes','dispensar','aceitar','ficar','sair','ouvir','nouvir','desisiitir','resistir','esperar','fugir'];
 
 const text = document.getElementById("text");
 function nextDialogue(dialogue){
   
   if (textnum<=(dialogue.length-2)){
     $("#seta").hide();
-    //$('#box').html('<div class="char_name">Maria Antonieta</div><p id="text"></p><button class="arrow"  onclick="nextDialogue('+pag[dialogue[-1]]+')" id="seta"></button>') ;
-    //$('#text').text('');
-    $("#text").text(dialogue[textnum]);
-    clearTimeout(type);
+   $("#text").text(dialogue[textnum]);
     typeWrite(text);
     setTimeout(mostra(),5000);
     textnum++;
@@ -48,7 +44,7 @@ function typeWrite(elemento){
      const textoArray = elemento.innerHTML.split("");
     elemento.innerHTML = '';
     textoArray.forEach(function(letra,i){
-        setTimeout(function type(){
+        setTimeout(function(){
             elemento.innerHTML += letra;
         },50*i)
     });
