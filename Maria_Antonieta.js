@@ -30,7 +30,7 @@ function nextDialogue(dialogue){
   if (textnum<=(dialogue.length-2)){
     $("#seta").hide();
    $("#text").text(dialogue[textnum]);
-    clearTimeout(typeWrite());
+    clearTimeout(type);
     setTimeout(typeWrite(text));
     setTimeout(mostra(),5000);
     textnum++;
@@ -44,11 +44,11 @@ function nextDialogue(dialogue){
 function typeWrite(elemento){
      const textoArray = elemento.innerHTML.split("");
     elemento.innerHTML = '';
-    textoArray.forEach(function(letra,i){
+     type = setTimeout(textoArray.forEach(function(letra,i){
         setTimeout(function type(){
             elemento.innerHTML += letra;
         },50*i)
-    });
+    }),0);
 }
 
 function mostra(){
