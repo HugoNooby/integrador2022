@@ -28,10 +28,10 @@ const text = document.getElementById("text");
 function nextDialogue(dialogue){
   
    if (textnum<=(dialogue.length-2)){
-    $("#seta").fadeToggle(50);
+    //$("#seta").fadeToggle(50);
    $("#text").text(dialogue[textnum]);
     typeWrite(text);
-    setTimeout(mostra(),5000);
+    //setTimeout(mostra(),5000);
     textnum++;
   } else if (textnum==dialogue.length-1){
     $('#box').html(botoes[dialogue[textnum]]) ;
