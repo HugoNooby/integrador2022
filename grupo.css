@@ -164,6 +164,14 @@ a:hover {
   transition: all .2s ease;
 }
 
+.voltar:link , .voltar:visited{
+	background-color: pink;
+	color: white;
+	padding: 14px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	}
 
 .section__main {
   *zoom: 1;
