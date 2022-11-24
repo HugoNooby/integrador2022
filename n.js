@@ -18,9 +18,9 @@ function pesquisa() {
   } else if (personagem == "Jughead") {
     document.getElementById("resultado").innerHTML =
       "Hummmmmm, esse foi um ótimo chute! Jughead Jones é Escritor, consequentemente narrador da história de sua cidade, mas não é o narrador desta história. Jug também é Estudante do Ensino Médio, Operador de Estande de Projeção, Membro/Líder de Gangue (não siga este exemplo). Tente de novo!";
-  } else if (personagem == "") {
+  } else if ((personagem == "Cobra") | (personagem == "Rattlesnacke")) {
     document.getElementById("resultado").innerHTML =
-      "";
+      "Infelizmente ou felizmente não é a cobra da logo, acho que ela não teria tanta criatividade e paciência para isso. Mas você pode perguntar para a grande mente criativa lara.bruna@estudante.ifgoiano.edu.br sobre como nossa logo e nome do grupo foram originadas. Tente novamente encontrar o narrador!";
   } else if (personagem == "") {
     document.getElementById("resultado").innerHTML =
       "";
