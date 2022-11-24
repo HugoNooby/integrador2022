@@ -1,0 +1,49 @@
+body {
+    font-family: 'Comic Sans',cursive;
+    min-height: 800px;
+    background-image: url('https://th.bing.com/th/id/R.63328778534e139d9d1dede3531a0519?rik=5lQ9jOgTSXt4yg&pid=ImgRaw&r=0');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    font-size: 55px
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .interrogue {
+  color: #ffffff;
+  font-size: 20px;
+  }
+
+  .resultado {
+  color: #ffffff;
+  font-size:19px;
+  top: 350px;
+  }
+
+  .page-logo {
+  width: 250px;
+  }
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
