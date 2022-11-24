@@ -430,7 +430,7 @@ a:hover {
 }
 .botao_nav{
     text-decoration: none;
-    background-color: rgb(#6495ED, #6A5ACD);
+    background-color: none;
     border-style: solid;
     border-color: white;
     margin: 20px;
@@ -438,6 +438,6 @@ a:hover {
     border-radius: 10px;
 }
 .botao_nav:hover{
-    color: rgb(0, 212, 81);
-    background-color: rgb(#6A5ACD, #6495ED);
+    color: rgb(#FF00FF);
+    background-color: none;
 }
