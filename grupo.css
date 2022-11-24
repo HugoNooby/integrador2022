@@ -164,7 +164,7 @@ a:hover {
   transition: all .2s ease;
 }
 
-.voltar:link , .voltar:visited{
+.voltar a:link, a:visited{
 	background-color: pink;
 	color: white;
 	padding: 14px;
